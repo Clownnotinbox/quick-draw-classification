@@ -1,0 +1,12 @@
+{
+  "eval_acc": 0.7792895520080398,
+  "selection_eval_acc": 0.7792702253488462,
+  "test_acc": 0.7806013991419627,
+  "test_n": 51746,
+  "test_correct": 40393,
+  "kaggle_score": 0.777,
+  "baseline_test_acc": 0.6810574730413945,
+  "submission_rows": 172500,
+  "csv_sha256": "d3c027b7e429d481763b4a4f49898a0b8301777db2b6380ddf40a0bfd30ba03d",
+  "baseline_eval_acc": 0.6751768389316223
+}

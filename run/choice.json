@@ -1,0 +1,131 @@
+{
+  "eval_acc": 0.7792702253488462,
+  "models": [
+    {
+      "name": "large",
+      "flip": true,
+      "shift": false,
+      "rot": true,
+      "zoom": false,
+      "temperature": 1.0,
+      "weight": 0.1,
+      "eval_acc": 0.7641954311777666,
+      "eval_loss": 0.9876684546470642,
+      "bn_before": 0.7610451857291949,
+      "bn_after": 0.7610451857291949,
+      "tta": {
+        "(False, False, False, False)": 0.7610451857291949,
+        "(True, False, False, False)": 0.7637702446755054,
+        "(True, True, False, False)": 0.763229098218082,
+        "(True, False, True, False)": 0.7641954311777666,
+        "(True, False, False, True)": 0.763924857949055
+      },
+      "sha256": "b46a9b3371aa0c722db606344fd183ca5f73c71797f3f0bbd87d79a18c2d7205"
+    },
+    {
+      "name": "v4",
+      "flip": true,
+      "shift": false,
+      "rot": false,
+      "zoom": true,
+      "temperature": 1.0,
+      "weight": 0.2,
+      "eval_acc": 0.7640214912450234,
+      "eval_loss": 0.9656810164451599,
+      "bn_before": 0.7612771056395191,
+      "bn_after": 0.7612577789803254,
+      "tta": {
+        "(False, False, False, False)": 0.7612771056395191,
+        "(True, False, False, False)": 0.7634030381508252,
+        "(True, True, False, False)": 0.7629005450117893,
+        "(True, False, True, False)": 0.7635383247651811,
+        "(True, False, False, True)": 0.7640214912450234
+      },
+      "sha256": "7625ae78f0c3f9e8a2366f7259a2759b9cb825e7138e60dcf946d3a0d0f9fb57"
+    },
+    {
+      "name": "raw",
+      "flip": true,
+      "shift": false,
+      "rot": true,
+      "zoom": false,
+      "temperature": 1.0,
+      "weight": 0.1,
+      "eval_acc": 0.756773994047389,
+      "eval_loss": 1.0182559490203857,
+      "bn_before": 0.7504541764910517,
+      "bn_after": 0.7504541764910517,
+      "tta": {
+        "(False, False, False, False)": 0.7504541764910517,
+        "(True, False, False, False)": 0.7552278613118937,
+        "(True, True, False, False)": 0.7539716284643037,
+        "(True, False, True, False)": 0.756773994047389,
+        "(True, False, False, True)": 0.7563488075451278
+      },
+      "sha256": "5beed58f14beb68373d210b0a36982fee47d2e79d0444d04735ecf3a128b88c8"
+    },
+    {
+      "name": "line",
+      "flip": true,
+      "shift": false,
+      "rot": true,
+      "zoom": false,
+      "temperature": 1.0,
+      "weight": 0.2,
+      "eval_acc": 0.7623400718951722,
+      "eval_loss": 1.0146489143371582,
+      "bn_before": 0.7593057864017626,
+      "bn_after": 0.7593057864017626,
+      "tta": {
+        "(False, False, False, False)": 0.7593057864017626,
+        "(True, False, False, False)": 0.7613737389354877,
+        "(True, True, False, False)": 0.76096787909242,
+        "(True, False, True, False)": 0.7623400718951722,
+        "(True, False, False, True)": 0.7615670055274245
+      },
+      "sha256": "6f650092fcfcd72512da499f47b52fe975727e16f166cd8705cac2ade13a3d28"
+    },
+    {
+      "name": "medb",
+      "flip": true,
+      "shift": false,
+      "rot": false,
+      "zoom": false,
+      "temperature": 1.0,
+      "weight": 0.2,
+      "eval_acc": 0.770186695527811,
+      "eval_loss": 0.9598813056945801,
+      "bn_before": 0.7665726102585907,
+      "bn_after": 0.7666499168953654,
+      "tta": {
+        "(False, False, False, False)": 0.7666499168953654,
+        "(True, False, False, False)": 0.770186695527811,
+        "(True, True, False, False)": 0.7682347029492482,
+        "(True, False, True, False)": 0.7697808356847435,
+        "(True, False, False, True)": 0.7698001623439372
+      },
+      "sha256": "e0ba94c2dd26e31647700d1b43706cc153ed13c8e99af254d7a9b2ea10759a75"
+    },
+    {
+      "name": "tallb",
+      "flip": true,
+      "shift": false,
+      "rot": false,
+      "zoom": true,
+      "temperature": 1.0,
+      "weight": 0.2,
+      "eval_acc": 0.7684472962003788,
+      "eval_loss": 0.9741731882095337,
+      "bn_before": 0.7655869506397124,
+      "bn_after": 0.7656449306172934,
+      "tta": {
+        "(False, False, False, False)": 0.7656449306172934,
+        "(True, False, False, False)": 0.7678674964245681,
+        "(True, True, False, False)": 0.7671524100344015,
+        "(True, False, True, False)": 0.7680994163348923,
+        "(True, False, False, True)": 0.7684472962003788
+      },
+      "sha256": "f2f7ebe48fc1c4aae660807477e9f50f2855ec7dab87547803a6d6219ec15f85"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "train": 586386,
+  "eval": 51742,
+  "test": 51746,
+  "kaggle_test": 172500,
+  "classes": 345,
+  "train_removed": 114,
+  "val_removed": 12,
+  "overlap_train_val": 14,
+  "overlap_train_kaggle": 18,
+  "overlap_val_kaggle": 8,
+  "files": {
+    "classes.npy": "2a90dfeecf1d3da084616432f6e80e80443800d640ff2a919be2e378449c30ce",
+    "test_images.npy": "badaebeba224bcfeca754c29c03d9cbd394e988f8d9862182efa2362c49ce31b",
+    "train_images.npy": "306a318210b28fafe7c9d49417fb3f85bf0dfec6befbf3e2c3741ebef9e01047",
+    "train_labels.npy": "968f3c27fd9c2628add1108dfd707434078d1676370d5605329633fe2fe8c333",
+    "val_images.npy": "e52538ade026c9a4589d7d0fa927b7d856ba1e24a2f7c39d3382d4a08a290d80",
+    "val_labels.npy": "a15311a095881c7dbdbb4ff17962baeab53bd4297c80ab59c256d5cd8e26a839"
+  }
+}

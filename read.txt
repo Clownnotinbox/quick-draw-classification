@@ -1,0 +1,10 @@
+Главный файл — draw.ipynb. Откройте его в Jupyter или VS Code.
+Python 3.12. Установка библиотек: python -m pip install -r req.txt
+Все ячейки уже выполнены. В run — шесть моделей, логи и submission.csv.
+Kaggle: 0.77700. Оценка по порогу — 8/10.
+
+Обычный запуск показывает сохранённые результаты без GPU.
+calc = True заново считает ответы: нужна NVIDIA с CUDA, проверено на 8 ГБ.
+learn = True включает обучение; также нужен исходный train_images.npy в data:
+https://www.kaggle.com/competitions/quick-draw-challenge-autumn-2026/data
+Остальные файлы данных приложены. Старые опыты будут обучаться заново.
